@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/supertux.png" type="image/x-icon">
+    <title>Master en CSS</title>
+</head>
+
+<body>
+    <header id="site-header">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                <div id="logo">
+                    <span class="gear">S</span>
+                    <h3>Blog</h3>         
+                </div>
+                <nav id="navegacion">
+                    <a href="#">Inicio</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Formación</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </div>  
+        </div>   
+    </header>
+
+    <div class="contenedor">
+        <section id="info">
+            <div id="banner">
+                <h1>Cursos de desarrollo web</h1>
+            </div>
+            <div id="cards">
+                <div class="card">
+                    <p class="icon">H</p>
+                    <h2 class="category">Desarrollo Web</h2>
+                    <p class="description">Aprende los principales lenguajes para desarrollo web.</p>
+                </div>
+                <div class="card">
+                    <p class="icon">_</p>
+                    <h2 class="category">Sistemas operativos</h2>
+                    <p class="description">Aprende a administrar sistemas Linux y Windows.</p>
+                </div>
+                <div class="card">
+                    <p class="icon">S</p>
+                    <h2 class="category">Hardware</h2>
+                    <p class="description">Conoce los entresijos del hardware.</p>
+                </div>
+                <div class="card">
+                    <p class="icon">u</p>
+                    <h2 class="category">Redes e Internet</h2>
+                    <p class="description">Aprende a configurar y administrar redes informáticas y servidores.</p>
+                </div>
+                <div class="card">
+                    <p class="icon">a</p>
+                    <h2 class="category">Bases de datos</h2>
+                    <p class="description">Aprende a diseñar y administrar bases de datos.</p>
+                </div>     
+            </div> <!-- Cards-->
+        </section>
+    </div>
+
+    <div class="contenedor contenido-principal">
+        <aside id="sidebar">
+            <h3>Buscar</h3>
+            <div id="search">
+                <form id="form-uno">
+                    <input type="text">
+                    <input type="button" value="L" class="icon">
+                </form>
+            </div>
+            <h3>Login</h3>
+            <div id="login" class="aside-box">
+                <form>
+                    <label id="user">U</label>
+                    <input type="email">
+                    
+                    <label id="password">w</label>
+                    <input type="password">
+
+                    <div id="botones">
+                        <input type="submit" value="Entrar">
+                        <input type="reset" value="Limpiar">
+                    </div>
+
+                    <a href="#">Regístrate aquí</a>
+                    <a href="#">¿Has olvidado tu contraseña?</a>
+                </form>
+            </div>
+            <h3>Redes Sociales</h3>
+            <div id="social" class="aside-box">
+                <div class="twitter">
+                    <a href="#">t</a>
+                    <p class="overlay">Twitter</p>
+                </div>
+                <div class="facebook">
+                    <a href="#">f</a>
+                    <p class="overlay">Facebook</p>
+                </div>
+                <div class="youtube">
+                    <a href="#">y</a>
+                    <p class="overlay">Youtube</p>
+                </div>
+            </div>
+            <h3>Patrocinadores</h3>
+            <div id="sponsor" class="aside-box"></div>
+        </aside>
+
+        <main id="articles">
+            <h2>Últimos artículos</h2>
+            <article>
+                <div class="data">
+                    <span>Fecha: 12 dic</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>Sed nec sodales lacus, non porttitor justo. Sed ac cursus nulla. Cras rutrum est risus, non rhoncus ex tincidunt sit amet. Fusce quis nisl mattis, lobortis odio a, volutpat felis. Ut mi libero, dignissim id sem vel, vehicula iaculis massa. Nam arcu orci, auctor at porttitor posuere, lobortis vitae nunc. Sed convallis, purus tempor sodales vehicula, sem ipsum faucibus ante, nec viverra neque tellus et dui. Nam et elementum erat, at maximus augue.</p>
+            </article>
+            <article>
+                <div class="data">
+                    <span>Fecha: 12 dic</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>Sed nec sodales lacus, non porttitor justo. Sed ac cursus nulla. Cras rutrum est risus, non rhoncus ex tincidunt sit amet. Fusce quis nisl mattis, lobortis odio a, volutpat felis. Ut mi libero, dignissim id sem vel, vehicula iaculis massa. Nam arcu orci, auctor at porttitor posuere, lobortis vitae nunc. Sed convallis, purus tempor sodales vehicula, sem ipsum faucibus ante, nec viverra neque tellus et dui. Nam et elementum erat, at maximus augue.</p>
+            </article>
+            <article>
+                <div class="data">
+                    <span>Fecha: 12 dic</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>Sed nec sodales lacus, non porttitor justo. Sed ac cursus nulla. Cras rutrum est risus, non rhoncus ex tincidunt sit amet. Fusce quis nisl mattis, lobortis odio a, volutpat felis. Ut mi libero, dignissim id sem vel, vehicula iaculis massa. Nam arcu orci, auctor at porttitor posuere, lobortis vitae nunc. Sed convallis, purus tempor sodales vehicula, sem ipsum faucibus ante, nec viverra neque tellus et dui. Nam et elementum erat, at maximus augue.</p>
+            </article>
+            <article>
+                <div class="data">
+                    <span>Fecha: 12 dic</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>Sed nec sodales lacus, non porttitor justo. Sed ac cursus nulla. Cras rutrum est risus, non rhoncus ex tincidunt sit amet. Fusce quis nisl mattis, lobortis odio a, volutpat felis. Ut mi libero, dignissim id sem vel, vehicula iaculis massa. Nam arcu orci, auctor at porttitor posuere, lobortis vitae nunc. Sed convallis, purus tempor sodales vehicula, sem ipsum faucibus ante, nec viverra neque tellus et dui. Nam et elementum erat, at maximus augue.</p>
+            </article>
+            <article>
+                <div class="data">
+                    <span>Fecha: 12 dic</span>
+                    <span>Categoría: Pruebas</span>
+                </div>
+                <h4>
+                    <a href="#">Título del artículo</a>
+                </h4>
+                <p>Sed nec sodales lacus, non porttitor justo. Sed ac cursus nulla. Cras rutrum est risus, non rhoncus ex tincidunt sit amet. Fusce quis nisl mattis, lobortis odio a, volutpat felis. Ut mi libero, dignissim id sem vel, vehicula iaculis massa. Nam arcu orci, auctor at porttitor posuere, lobortis vitae nunc. Sed convallis, purus tempor sodales vehicula, sem ipsum faucibus ante, nec viverra neque tellus et dui. Nam et elementum erat, at maximus augue.</p>
+            </article>
+            <article id="blog">
+                <a href="#">Ir al blog</a>
+            </article>
+        </main>
+    </div>
+
+    <footer id="footer">
+        <div class="contenedor contenido-principal">
+            <nav id="menu-footer">
+                <h5>Menú</h5>
+                <a href="#">Inicio</a>
+                <a href="#">Blog</a>
+                <a href="#">Formación</a>
+                <a href="#">Contacto</a>
+            </nav>
+            <div id="location">
+                <h5>¿Dónde estamos?</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14376.49206311234!2d-100.31612355308808!3d25.73344518615999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662945396e136af%3A0x742b1e8288ee57a8!2sUniversidad%20Aut%C3%B3noma%20de%20Nuevo%20Le%C3%B3n!5e0!3m2!1ses-419!2smx!4v1581014735118!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div id="info">
+                <h5>Desarrollado con</h5>
+                <p>
+                    <img src="img/html5-badge-h-css3-graphics-multimedia-performance-semantics.png" alt="HTML5">
+                </p>
+                <h5>Optimizado para</h5>
+                <p id="browsers">
+                    <a href="#">
+                        <img src="img/firefox-icon.png" alt="Firefox">
+                    </a>
+                    <a href="#">
+                        <img src="img/chrome.png" alt="Google Chrome">
+                    </a>
+                    <a href="#">
+                        <img src="img/Opera_256x256.png" alt="Opera">
+                    </a>
+                    <a href="#">
+                        <img src="img/safari.png" alt="Safari">
+                    </a>
+                    <a href="#">
+                        <img src="img/android.png" alt="Android">
+                    </a>
+                    <a href="#">
+                        <img src="img/ios.png" alt="IOS">
+                    </a>
+                </p>
+            </div>
+        </div>
+        
+    </footer>
+    
+</body>
+
+</html>
